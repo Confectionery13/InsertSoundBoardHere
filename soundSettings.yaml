@@ -1,0 +1,13 @@
+inputDev: Microphone (Yeti Nano)
+extraDev: Please select a device! ;D
+outputDev: Output (Virtual Audio Cable)
+sampleRate: '384000'
+abortBind: <numpad0>
+---
+name: They_Will_Kill_You_out_of_context_part_2
+path: A:/Speng/SOUNDBOARD/They_Will_Kill_You_out_of_context_part_2.mp3
+keybind: <numpad1>
+volume: 0.5
+overlap: false
+pausable: false
+loopable: false

@@ -447,7 +447,6 @@ def comboBoxChange(event):
       for sound in mainContainer.soundList:
             fastThread(sound.updateDevice, (obtainDeviceID(outputSelection.getComboBox().get(),"max_output_channels", 0),))
 
-#save existing presets to yaml
 def saveToYaml():
       with open('soundSettings.yaml', 'w') as yamlFile:
             yaml.safe_dump_all(configFile, yamlFile, sort_keys=False)
@@ -539,10 +538,10 @@ def deleteSound():
 
 def itemEnabler(abortion):
       if abortion:
-            inputSelection.ComboBox.configure(state="normal")
-            extraSelection.ComboBox.configure(state="normal")
-            outputSelection.ComboBox.configure(state="normal")
-            rateSelection.ComboBox.configure(state="normal")
+            inputSelection.ComboBox.configure(state="readonly")
+            extraSelection.ComboBox.configure(state="readonly")
+            outputSelection.ComboBox.configure(state="readonly")
+            rateSelection.ComboBox.configure(state="readonly")
 
       else:
             uploadButton.configure(state="normal")
