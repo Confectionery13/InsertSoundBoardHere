@@ -2,11 +2,11 @@
 
 Hello and welcome!
 
-Are you in need of a program that allows you to play sounds through your mic?
+Are you in need of a program that allows you to play sigma sounds through your mic?
 
 Do you need an escape from Discords inbuilt soundboard?
 
-...Or maybe you just want to micspam on TF2 community servers XD
+...Or maybe you just want to micspam earrape on TF2 community servers XD
 
 WELL, I'm not here to question what your needs are lol, instead, I'm here to introduce InsertSoundBoardHere!
 
@@ -14,3 +14,5 @@ InsertSoundBoardHere is a program that I've written using Python that allows use
 through their microphone! :D
 
 ## Installation and Requirements
+
+To install this program, simply download the release from this program
