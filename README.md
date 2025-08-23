@@ -11,4 +11,6 @@ Do you need an escape from Discords inbuilt soundboard?
 WELL, I'm not here to question what your needs are lol, instead, I'm here to introduce InsertSoundBoardHere!
 
 InsertSoundBoardHere is a program that I've written using Python that allows users to play any sound they desire
-f
+through their microphone! :D
+
+##Installation and Requirements
