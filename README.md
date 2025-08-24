@@ -53,9 +53,11 @@ This means that Python does NOT have to be installed in order for this program t
 If however you DO have a Python interpreter or IDE installed, **soundBoard.py** file is just as capable of performing
 your needs too.
 
-## Main Usage
-
 With all the hard stuff out of the way, I'll now introduce the program itself! ;D
+
+## The Sound Tab
+
+The sound tab allows you to upload/delete sounds, and change their volume and keybind, along with other properties!
 
 ![image_alt](https://github.com/Confectionery13/InsertSoundBoardHere/blob/main/demo.png?raw=true)
 
@@ -97,6 +99,9 @@ the existing keybind of the selected sound.
 
 **Right click** the button to clear out any existing keybind the sound has!
 
+![image_alt](https://github.com/Confectionery13/InsertSoundBoardHere/blob/main/demo4.png?raw=true)
+
+
 * **The Volume Slider**
 
 This one is self explanatory, it changes the volume of the selected sound, both on playback and passthrough.
@@ -112,3 +117,49 @@ This makes the sound remember what point it was stopped at, allowing for playbac
 * **The Loopable Switch**
 
 This makes it so that the sound restarts playback upon reaching the end of file.
+
+* **The Delete Button**
+
+This commits first degree murder on the selected sound... :*(
+
+## The Settings Tab
+
+The settings tab allows you to change your sound devices and configure an additional keybind! :D
+
+You may notice that there's no "Start" or "Stop" button, this is because the program runs automatically as soon as a
+valid input device, output device, and sample rate into the comboboxes below:
+
+![image_alt](https://github.com/Confectionery13/InsertSoundBoardHere/blob/main/demo5.png?raw=true)
+
+* **The Input Device**
+
+This combobox selects the input device. You preferrably want to use your microphone for this.
+
+* **The Extra Device**
+
+This combobox selects ANOTHER input device. This is completely optional, and is sort of a novelty feature to this program XD
+In my case, I use another virtual audio device and have my browser be the only application that uses said audio device.
+I then select said audio device as the extra device to allow direct passthrough to the output device.
+
+This can be used for MANY cases, such as routing discord call audio to a CS2 game lol
+
+* **The Output Device**
+
+This combobox selects the output device. You must use the virtual audio cable you set as a default device for this.
+
+* **The Sample Rate**
+
+This combobox selects the sample rate. If you want to be really funny and sound like someone on Xbox, set it all the way down XD
+
+* **The Abort Hotkey**
+
+This keybind stops all sounds that are currently playing. It ALSO sets all paused sounds all the way back to the start of their respective files.
+
+The button functions exactly the same way as the **sound keybinds** you saw earlier. :D
+
+## Let me know what you think!
+
+For whatever purpose this is used for, I hope it makes you happy! :D
+
+Consider donating to me here if you really want: https://ko-fi.com/confectionery13
+
