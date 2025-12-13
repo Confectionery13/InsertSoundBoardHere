@@ -30,39 +30,22 @@ ALSO, wherever pynput is installed, go to "(Wherever your python libraries are)\
 
 and then append the following code inside class Key(enum.Enum):
 
-
     numpad0 = KeyCode.from_vk(VK.NUMPAD0)
-    
     numpad1 = KeyCode.from_vk(VK.NUMPAD1)
-    
     numpad2 = KeyCode.from_vk(VK.NUMPAD2)
-    
     numpad3 = KeyCode.from_vk(VK.NUMPAD3)
-    
     numpad4 = KeyCode.from_vk(VK.NUMPAD4)
-    
     numpad5 = KeyCode.from_vk(VK.NUMPAD5)
-    
     numpad6 = KeyCode.from_vk(VK.NUMPAD6)
-    
     numpad7 = KeyCode.from_vk(VK.NUMPAD7)
-    
     numpad8 = KeyCode.from_vk(VK.NUMPAD8)
-    
     numpad9 = KeyCode.from_vk(VK.NUMPAD9)
-    
     multiply = KeyCode.from_vk(VK.MULTIPLY)
-    
     add = KeyCode.from_vk(VK.ADD)
-    
     separator = KeyCode.from_vk(VK.SEPARATOR)
-    
     subtract = KeyCode.from_vk(VK.SUBTRACT)
-    
     decimal = KeyCode.from_vk(VK.DECIMAL)
-    
     divide = KeyCode.from_vk(VK.DIVIDE)
-
     
 If this is not done, then the program will not be able to bind keys to the numpad.
 
