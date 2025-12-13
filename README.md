@@ -6,13 +6,21 @@ https://youtu.be/TPlZZJuxMwg
 IF you're going to download soundBoard.py instead of soundBoard.exe, be sure to run these commands in CMD/Powershell:
 
 "pip install numpy"
+
 "pip install yaml"
+
 "pip install customtkinter"
+
 "pip install CTkMessagebox"
+
 "pip install CTkListbox"
+
 "pip install CtkToolTip"
+
 "pip install sounddevice"
+
 "pip install soundfile"
+
 "pip install pynput"
 
 ALSO, wherever pynput is installed, go to "(Wherever your python libraries are)\pynput\keyboard\_win32.py"
